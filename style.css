@@ -70,7 +70,8 @@ button:hover {
 
 /*formato de texto de contenidos*/
 
-h2 {font-family: "Montserrat", sans-serif}
+h3 {font-family: "Montserrat", sans-serif;
+}
 
 /*Imagen de Reparación y diagnostico*/
 .content img{
