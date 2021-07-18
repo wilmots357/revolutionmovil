@@ -39,23 +39,21 @@ body {
 /*===================SECCION NUESTRO EQUIPO MAPA==========================*/
 #local {
     margin-top:50px;
+    padding-top: 50px;
     background-color: #f3f3f3;
-    display:flex;
-    justify-content: center; 
-    padding-bottom: 300px; 
+    display: flex;
+    padding-bottom: 50px; 
 }
 
-.mapa {
-    background: url(../img/mpa\ rm2.jpg);
-    width:100%;
-    height:500px;
+.map-responsive iframe{
+    width: 100%;
+    height: 300px;
 }
 
 
 .wrapper-local {
-    width:50%;
-    margin-left:100px;
-    padding-top:150px;
+    width: 90%;
+    margin-left: 50px;
 }
 
 
