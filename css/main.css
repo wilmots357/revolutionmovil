@@ -83,66 +83,66 @@ body {
 
 /*=========================FOOTER================================*/
 footer{
-    width:100%; /*ancho*/
-    padding: 50px 0px; /*margenes*/
-    background-image: url(../imgfot/background-footer.svg);
-    background-size: cover; /*para posicionar bien la imagen y se adapte*/
+    width:100%; 
+    padding: 50px 0px; 
+    background-image: url(../img/abstract.webp);
+    background-size: cover; 
 }
 
 .container__footer{
-    display: flex; /* para poner las columnas unas al lado de otras*/
-    flex-wrap: wrap; /*para q se pongan una debajo de otra*/
-    justify-content: space-between; /* para q mantengan una pocision un tanto estiradas y puedan ocupar el ancho completo del proyecto*/
-    max-width: 1200px; /* ancho completo*/
-    margin: auto; /* para q el contenedor se mantega centrado*/
-    margin-top:100px; /*para bajar un poco el contenedor*/
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-between; 
+    max-width: 1200px; 
+    margin: auto; 
+    margin-top:100px; 
 }
 .box__footer{
-    display: flex; /*para q sus elementos se pongan uno debajo de otro */
-    flex-direction: column; /* para que las cajas q contengan se pongan una debajo de de otra*/
-    padding: 30px; /*para que el margen se separe*/
+    display: flex; 
+    flex-direction: column; 
+    padding: 30px; 
 }
 .box__footer .logo img{
-    width: 150px; /*es para reducir el tamaño de la imagen*/
+    width: 150px; 
     
 }
 .box__footer .terms{
-    max-width: 360px;  /* ancho completo*/
-    margin-top: 60px; /* para bajar un poco el contenedor*/
-    font-weight: 500; /* para q el lateral del texto se ponga mas grueso*/
+    max-width: 360px; 
+    margin-top: 60px; 
+    font-weight: 500; 
     color: #7a7a7a;
     font-size: 20px;
    
 }
 .box__footer h2{
-    margin-bottom: 40px; /*margen del texto*/
+    margin-bottom: 40px; 
     color: #343434;
-    font-weight: 800;    /* para q la letra del texto se ponga mas gruesa*/
+    font-weight: 800;    
 }
 
 .box__footer a{
-    margin-top: 10px; /**/
+    margin-top: 10px; 
     color: #7a7a7a;
-    font-weight: 1000; /* para q la letra del texto se ponga mas gruesa*/
+    font-weight: 1000; 
 }
 .box__footer a:hover{
-    opacity: 0.8; /*para dar el efecto ala etiquitas A  de opacidad*/
+    opacity: 0.8; 
 }
 .box__footer a .fab{
-    font-size: 25px; /* para k los iconos tenga  un tamaño*/
+    font-size: 25px; 
 }
 .box__copyrigth{
     max-width: 1200px;
-    margin: auto; /* para q el contenedor se mantega centrado*/
+    margin: auto; 
     text-align: center;
-    padding: 0px 40px; /*para que el margen se separe*/
+    padding: 0px 40px; 
 }
 .box__copyrigth p{
     margin-top: 20px;
     color:#7a7a7a;
 }
 .box__copyrigth hr{
-    border:none; /*para eliminar las linea*/
+    border:none; 
     height: 1px; 
     background-color: #7a7a7a;
 }
