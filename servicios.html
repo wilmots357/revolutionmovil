@@ -11,6 +11,9 @@
     <link rel="stylesheet" href="./css/main.css">
     <link rel="icon" href="icono.ico">
     <script src="https://kit.fontawesome.com/8a195c4b60.js" crossorigin="anonymous"></script>
+     <!-- Link Swiper's CSS -->
+  <link rel="stylesheet" href="slidercss/swiper.min.css">
+  <link rel="stylesheet" href="slidercss/slider.css">
     <title>Revolution Movil</title>
   </head>
   <body>
@@ -36,10 +39,10 @@
                 <a class="nav-link" aria-current="page" href="index.html">Inicio</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#equipo">Historia</a>
+                <a class="nav-link" aria-current="page" href="historia.html">Historia</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="index.html">Servicios</a>
+                <a class="nav-link" aria-current="page" href="servicios.html">Servicios</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#seccion-contacto">Celulares</a>
@@ -56,53 +59,107 @@
 
         </div>
       </nav>
+<!--slider d imagenes -->
+<!-- Swiper -->
+<div class="swiper-container">
+  <div class="swiper-wrapper">
+    <div class="swiper-slide" style="background-image:url(img/img1.jpg)"></div>
+    <div class="swiper-slide" style="background-image:url(img/im2.jpg)"></div>
+    <div class="swiper-slide" style="background-image:url(img/ing3.jpg)"></div>
+    <div class="swiper-slide" style="background-image:url(img/img4.jpg)"></div>
+    <div class="swiper-slide" style="background-image:url(img/img5.jpg)"></div>
+    <div class="swiper-slide" style="background-image:url(img/img6.jpg)"></div>
+    <div class="swiper-slide" style="background-image:url(img/img7.jpg)"></div>
+    <div class="swiper-slide" style="background-image:url(img/img8.jpg)"></div>
+    <div class="swiper-slide" style="background-image:url(img/img9.jpg)"></div>
+    <div class="swiper-slide" style="background-image:url(img/img10.jpg)"></div>
+    <div class="swiper-slide" style="background-image:url(img/img5.jpg)"></div>
+    <div class="swiper-slide" style="background-image:url(img/img6.jpg)"></div>
+    <div class="swiper-slide" style="background-image:url(img/img7.jpg)"></div>
+    <div class="swiper-slide" style="background-image:url(img/img8.jpg)"></div>
+    <div class="swiper-slide" style="background-image:url(img/img9.jpg)"></div>
+    <div class="swiper-slide" style="background-image:url(img/img10.jpg)"></div>
+  </div>
+  <!-- Add Pagination -->
+  <div class="swiper-pagination"></div>
+</div>
+
+<!-- Swiper JS -->
+<script src="js/swiper.min.js"></script>
+
+<!-- Initialize Swiper -->
+<script>
+  var swiper = new Swiper('.swiper-container', {
+    effect: 'coverflow',
+    grabCursor: true,
+    centeredSlides: true,
+    slidesPerView: 'auto',
+    coverflowEffect: {
+      rotate: 50,
+      stretch: 0,
+      depth: 100,
+      modifier: 1,
+      slideShadows : true,
+    },
+    pagination: {
+      el: '.swiper-pagination',
+    },
+  });
+</script>
+
+
 
  <!--========================================================== -->
                         <!-- galeria imagenes -->
   <!--========================================================== -->
-  <section id="container" class="containe">
-  <h1 class="title">Nuestros servicios </h1>
-    
-  <div class="container">
-     
-      <div class="card">
-          <img src="./img/diagnostico.jpg">
-          <h4>Diagnostico</h4>
-          <p>Verificamos el funcionamiento del cpu,almacenamiento, diagnosticos ala bateria y una serie de lecturas</p>
-          <a href="#">Leer más</a>
-      </div>
-      
-      <div class="card">
-          <img src="./img/reparación2.jpg">
-          <h4>Reparacion</h4>
-          <p>eparamos pantallas, sistemas
-            de audio, placa base, zócalos,
-            cámara y más.</p>
-          <a href="#">Leer más</a>
-      </div>
-      
-      <div class="card">
-          <img src="./img/desbloqueo.jpg">
-          <h4>Desbloqueos</h4>
-          <p>Se hacen liberacion de todos los modelos, eliminacion de cuenta google.</p>
-          <a href="#">Leer más</a>
-      </div>
+  <section class="w-100">
+    <div class="row w-75 mx-auto" id="servicios-fila-1">       
+        <div class="col-lg-6 col-md-12 col-sm-12 d-flex justify-content-start my-5 icono-wrap">
+            <img src="./img/diagnostico.jpg" alt="desarrollo"   width="180" height="160">
 
-      <div class="card">
-        <img src="./img/reparación2.jpg">
-        <h4>Sotfware</h4>
-        <p>correccion de errores,
-            parches de seguridad,
-            agregar nuevo soporte para
-            nuevo hardware y otras
-            pequeñas mejoras</p>
-        <a href="#">Leer más</a>
+            <div>
+                <h3 class="fs-5 mt-4 px-4 pb-1">Diagnostico</h3>
+                <p class="px-4">Verificamos el funcionamiento del cpu,almacenamiento, diagnosticos ala bateria y una serie de lecturas</p>
+            </div>
+
+        </div>
+
+        <div class="col-lg-6 col-md-12 col-sm-12 d-flex justify-content-start  my-5 icono-wrap">
+            <img src="./img/reparación2.jpg" alt="concepto" width="180" height="160">
+
+            <div>
+                <h3 class="fs-5 mt-4 px-4 pb-1 icono-wrap">Reparación</h3>
+                <p class="px-4">Reparamos pantallas, sistemas
+                  de audio, placa base, zócalos,
+                  cámara y más.</p>
+            </div>
+        </div>   
     </div>
-      
-  </div>
+    
+    <div class="row w-75 mx-auto mb-5" id="servicios-fila-2">       
+        <div class="col-lg-6 col-md-12 col-sm-12 d-flex justify-content-start  my-5 icono-wrap">
+            <img src="./img/software.jpg" alt="comunicaciones" width="180" height="160">
 
+            <div>
+                <h3 class="fs-5 mt-4 px-4 pb-1">Sofware</h3>
+                <p class="px-4">correccion de errores,
+                  parches de seguridad,
+                  agregar nuevo soporte para
+                  nuevo hardware y otras
+                  pequeñas mejoras</p>
+            </div>
+        </div>
+
+        <div class="col-lg-6 col-md-12 col-sm-12 d-flex justify-content-start my-5 icono-wrap">
+            <img src="./img/desbloqueo.jpg" alt="seo" width="180" height="160" >
+
+            <div>
+                <h3 class="fs-5 mt-4 px-4 pb-1">Liberaciones</h3>
+                <p class="px-4">Se hacen liberacion de todos los modelos, eliminacion de cuenta google.</p>
+            </div>
+        </div>   
+    </div>
 </section>
-
 <!--========================================================== -->
                         <!--FOOTER-->
 <!--========================================================== -->
