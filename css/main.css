@@ -11,7 +11,7 @@ body {
 /*===================MENU==========================*/
 
  #menu a, button{
-     font-size: 18px !important;
+     font-size: 25px !important;
      font-weight: 600;
     
  }
@@ -41,19 +41,21 @@ body {
     margin-top:50px;
     padding-top: 50px;
     background-color: #f3f3f3;
-    display: flex;
-    padding-bottom: 50px; 
+    display:flex;
+    padding-bottom: 300px; 
 }
 
-.map-responsive iframe{
-    width: 100%;
-    height: 300px;
+.mapa {
+    margin: 130px 0 0 90px;
+    width:100%;
+    height:500px;
 }
 
 
 .wrapper-local {
-    width: 90%;
-    margin-left: 50px;
+    width:50%;
+    margin-left:100px;
+    padding-top:150px;
 }
 
 
@@ -83,66 +85,66 @@ body {
 
 /*=========================FOOTER================================*/
 footer{
-    width:100%; 
-    padding: 50px 0px; 
+    width:100%; /*ancho*/
+    padding: 50px 0px; /*margenes*/
     background-image: url(../img/abstract.webp);
-    background-size: cover; 
+    background-size: cover; /*para posicionar bien la imagen y se adapte*/
 }
 
 .container__footer{
-    display: flex;
-    flex-wrap: wrap; 
-    justify-content: space-between; 
-    max-width: 1200px; 
-    margin: auto; 
-    margin-top:100px; 
+    display: flex; /* para poner las columnas unas al lado de otras*/
+    flex-wrap: wrap; /*para q se pongan una debajo de otra*/
+    justify-content: space-between; /* para q mantengan una pocision un tanto estiradas y puedan ocupar el ancho completo del proyecto*/
+    max-width: 1200px; /* ancho completo*/
+    margin: auto; /* para q el contenedor se mantega centrado*/
+    margin-top:100px; /*para bajar un poco el contenedor*/
 }
 .box__footer{
-    display: flex; 
-    flex-direction: column; 
-    padding: 30px; 
+    display: flex; /*para q sus elementos se pongan uno debajo de otro */
+    flex-direction: column; /* para que las cajas q contengan se pongan una debajo de de otra*/
+    padding: 30px; /*para que el margen se separe*/
 }
 .box__footer .logo img{
-    width: 150px; 
+    width: 150px; /*es para reducir el tamaño de la imagen*/
     
 }
 .box__footer .terms{
-    max-width: 360px; 
-    margin-top: 60px; 
-    font-weight: 500; 
+    max-width: 360px;  /* ancho completo*/
+    margin-top: 60px; /* para bajar un poco el contenedor*/
+    font-weight: 500; /* para q el lateral del texto se ponga mas grueso*/
     color: #7a7a7a;
     font-size: 20px;
    
 }
 .box__footer h2{
-    margin-bottom: 40px; 
+    margin-bottom: 40px; /*margen del texto*/
     color: #343434;
-    font-weight: 800;    
+    font-weight: 800;    /* para q la letra del texto se ponga mas gruesa*/
 }
 
 .box__footer a{
-    margin-top: 10px; 
+    margin-top: 10px; /**/
     color: #7a7a7a;
-    font-weight: 1000; 
+    font-weight: 1000; /* para q la letra del texto se ponga mas gruesa*/
 }
 .box__footer a:hover{
-    opacity: 0.8; 
+    opacity: 0.8; /*para dar el efecto ala etiquitas A  de opacidad*/
 }
 .box__footer a .fab{
-    font-size: 25px; 
+    font-size: 25px; /* para k los iconos tenga  un tamaño*/
 }
 .box__copyrigth{
     max-width: 1200px;
-    margin: auto; 
+    margin: auto; /* para q el contenedor se mantega centrado*/
     text-align: center;
-    padding: 0px 40px; 
+    padding: 0px 40px; /*para que el margen se separe*/
 }
 .box__copyrigth p{
     margin-top: 20px;
     color:#7a7a7a;
 }
 .box__copyrigth hr{
-    border:none; 
+    border:none; /*para eliminar las linea*/
     height: 1px; 
     background-color: #7a7a7a;
 }
@@ -274,3 +276,37 @@ footer{
     color: #3498db;
 }
 
+/*historia texto*/
+
+.container-all{
+    width: 100%;
+    max-width: 1000px;
+    margin: auto;
+    padding: 60px;
+    background: white;
+    margin-top: 100px;
+    border-top: 6px solid #415ae7;
+}
+
+.title{
+    font-size: 40px;
+    margin-bottom: 60px;
+}
+
+.sub-title{
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.container-all img{
+    width: 500px;
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.container-all p{
+    font-size: 18px;
+    font-weight: 300;
+    margin-top: 20px;
+}
