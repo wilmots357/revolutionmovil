@@ -17,8 +17,11 @@ body {
  }
 
  #menu a{
-     color:#3f3f3f;
-     
+     color:#000000;
+ }
+
+ .navbar{
+    background: linear-gradient(rgba(8, 62, 197, 0.8), rgba(0, 179, 255, 0.8));
  }
 /*===================SLIDER DE IMAGENES==========================*/
 
