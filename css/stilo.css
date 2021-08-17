@@ -1,0 +1,141 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+footer{
+    width: 100%;
+    background: #202020;
+    color: white;
+}
+
+.contenedor-de-todo{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    padding: 40px;
+}
+
+.contenedor-body{
+    display: flex;
+    justify-content: space-between;
+}
+
+.columna1{
+    max-width: 400px;
+}
+
+.columna1 h1{
+    font-size: 22px;
+}
+
+.columna1 p{
+    font-size: 15px;
+    color: #C7C7C7;
+    margin-top: 20px;
+}
+
+.columna2{
+    max-width: 400px;
+}
+
+.columna2 h1{
+    font-size: 22px;
+}
+
+.fila{
+    margin-top: 20px;
+    display: flex;
+    color: #C7C7C7;
+}
+
+.fila img{
+    width: 36px;
+    height: 36px;
+}
+.fila label{
+    margin-top: 10px;
+}
+.fila a{
+    text-decoration: none;
+    color: #C7C7C7;
+}
+
+.columna3{
+    max-width: 400px;
+    text-decoration: none;
+    color: #C7C7C7;
+}
+.columna3 h1{
+    font-size: 22px;
+    color: #C7C7C7;
+}
+.fila2{
+    margin-top: 20px;
+}
+.fila2 img{
+    width: 36px;
+    height: 36px;
+}
+.fila2 label{
+    margin-top: 10px;
+    margin-left: 20px;
+    max-width: 160px;
+}
+.contenedor-footer{
+    max-width: 100%;
+    background: #101010;
+}
+.footer{
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+}
+.copyright{
+    color: #C7C7C7;
+}
+.copyright a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+.información a{
+    text-decoration: none;
+    color: #C7C7C7;
+}
+
+@media(max-width: 1100px){
+    .contenedor-body{
+        flex-wrap: wrap;
+    }
+    .columna1{
+        max-width: 100%;
+    }
+
+    .columna2,
+    .columna3{
+        margin-top: 40px;
+}
+.contenedor-boton{
+    z-index: 999;
+    bottom: 20px;
+    right: 25px;
+    padding: 25px;
+    transition: ease 0.3s;
+}
+.contenedor-boton:hover{
+    transform: scale(1.1);
+    transform: 0.3;
+}
+.boton{
+    width: 80px;
+    transition: ease 1s;
+}
+
+.columna3 .fila2{
+    text-decoration: none;
+}
