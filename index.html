@@ -1,88 +1,283 @@
-<!DOCTYPE HTML>
-<html lan="en">
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width", initial-scale="1.0">
-        <meta name="keywords" content="celulares,pc,reparacion,smartphone,servicio tecnico">
-        <meta name="description" content="Empresa Revolution Movil donde los clientes puedan hacer sus pedidos de celulares, accesorios y de ser necesario contratar el servicio técnico de reparación a través de la página web de manera fácil y segura">
-        <link rel="stylesheet" href="style.css">
-        <link rel="icon" href="icono.ico">
-        <title>Revolution Movil</title>
-        <script src="https://kit.fontawesome.com/8a195c4b60.js" crossorigin="anonymous"></script>
-    </head>
-<body>
-    <header>
-        <marquee>
-        <h3>Seguimos con el servicio a Domicilio  ¡Cumpliendo el protocolo de Bioseguridad para cuidar de ti y de nosotros!</h3>
-        </marquee>
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="icon" href="icono.ico">
+    <script src="https://kit.fontawesome.com/8a195c4b60.js" crossorigin="anonymous"></script>
+    <title>Revolution Movil</title>
+    <link rel="stylesheet" href="css/stilo.css">
+    <link rel="stylesheet" href="css/Whatsapp.css">
+  </head>
+  <body>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <a href="https://chat.whatsapp.com/Ffk2ZkUEKfmABkwuaJN9SX?fbclid=IwAR3r16XpcJB2L5MUpaM2HkKCemmlJAbAcHIF2NhtVlezLXWbb7wCiTYxn-o" class="float" target="_blank">
+    <i class="fa fa-whatsapp my-float"></i>
+    </a>
+
+  <!--========================================================== -->
+                        <!-- ENCABEZADO -->
+  <!--========================================================== -->
+    <header class="container-fluid bg-primary d-flex justify-content-center">
+      <marquee><p class="text-light mb-0 p-2 fs-6">Seguimos con el servicio a Domicilio  ¡Cumpliendo el protocolo de Bioseguridad para cuidar de ti y de nosotros!</p></marquee>
     </header>
-    <div class="nav">
-        <a href="index.html">
-            <img class="logo" src="mano hulk.png" alt="logo">
-        </a>
-        <nav>
-            <ul class="navlinks">
-                <li><a href="index.html">Inicio</a></li>
-                <li><a href="servicios.html">Servicios</a></li>
-                <li><a href="Catalogo.html">Celulares</a></li>
-                <li><a href="Accesorios.html">Accesorios</a></li>
+
+    <nav  class="navbar navbar-expand-lg navbar-light p-2"  id="menu">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <span class="fs-5 text-primary fw-bold"></span>
+            <img  src="./img/mano hulk.png" alt="logo" width="70"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="historia.html">Historia</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="servicios.html">Servicios</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="celulares.html">Celulares</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="accesorios.html">Accesorios</a>
+              </li>
             </ul>
-        </nav>
-        <a class="cta" href="#contacto"><button>Contacto</buttom></a>
+            <form class="d-flex">
+              <input class="form-control me-2" type="email" placeholder="Busqueda" aria-label="Suscribete">
+              <a class="cta" href="login-register/index.html"><button class="btn btn-primary btn-primary-outline-success" type="button" >Suscribete</button></a>
+            </form>
+          </div>
 
-    </div>
-    <div class="slider">
-      <ul>
-            <li><img src="trans/tran4.jpg" alt=" "></li>
-            <li><img src="trans/tran3.png" alt=" "></li>
-            <li><img src="trans/tran2.jpg" alt=" "></li>
-            <li><img src="trans/tran1.jpg" alt=" "></li>
-      </ul>
-    </div>
+        </div>
+      </nav>
+
+    <!--========================================================== -->
+                        <!-- SLIDER DE IMAGENES-->
+    <!--========================================================== -->
+   
+    <div id="carousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="3000">
+            <img src="./img/SLIDER_1.png" class="d-block w-100" >
+          </div>
+          
+ 
+          <div class="carousel-item" data-bs-interval="3000">
+            <img src="./img/SLIDER_2.png" class="d-block w-100">
+          </div>
+ 
+
+          <div class="carousel-item" data-bs-interval="3000">
+            <img src="./img/SLIDER_3.png" class="d-block w-100" >
+          </div>
+ 
+          <div class="carousel-item" data-bs-interval="3000">
+            <img src="./img/SLIDER_4.png" class="d-block w-100">
+          </div>
+ 
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carousel"  data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carousel"  data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>    
+    
+        
+     
+    <!--========================================================== -->
+                        <!-- INTRODUCCION DE SERVICIOS-->
+    <!--========================================================== -->
 
 
-    <footer>
-        <div class="container__footer" id="contacto">
-            <div class="box__footer">
-               <div class="logo">
-                   <img src="imgfot/mano hulk.png" alt="">
-               </div>
-               <div class="terms">
-                   <p>Somos una empresa entrega a nustros clientes para darles una atencion obtima, y poder resolor todo sus problemas que pueden tener en sus 
-                       equipos, y pueda adquirir novedades de accesorios.</p>
-               </div> 
-            </div>
-            <div class="box__footer">
-                <h2>Solucion</h2>
-                <a href="#">Flasher</a>
-                <a href="#">Telefonos bloqueados</a>
-                <a href="#">Zocalos</a>
-                <a href="#">Pantalla</a>
-            </div>
+    <section class="d-flex flex-column justify-content-center align-items-center pt-5  text-center w-50 m-auto" id="intro">
+    <h1 class="p-3 fs-2 border-top border-3">Una agencia única para todas tus necesidades de <span class="text-primary">Reparaciones de celulares y ventas de accesorios<span/></h1>
+     <p class="p-3  fs-4">
+         <span class="text-primary">Revolution Movil</span> Es una empresa, que te brinda acesoria, a la hora de reparar tu equipo celular, tablet. O querer adquirir unos de nuestro accesorios  para tu movil.        
+     </p>   
+    </section>
 
-            <div class="box__footer">
-                <h2>Compañia</h2>
-                <a href="#">Acerca de</a>
-                <a href="#">Trabajos</a>
-                <a href="#">Procesos</a>
-                <a href="#">Servicios</a>
-            </div>
-            <div class="box__footer">
-                <h2>Redes Sociales</h2>
-                <a href="https://www.facebook.com/Revolutionmovilperu"><i class="fab fa-facebook-square"></i>Facebook</a>
-                <a href="https://www.instagram.com/revolution_movil_peru/?hl=es-la"><i class="fab fa-instagram"></i>Instagram</a>
-                <a href="https://api.whatsapp.com/send?phone=+51910698638&text=Hola!%20Digame%20en%20que%20te%20puedo%20ayudar."><i class="fab fa-whatsapp-square"></i>Whastapp</a>
-                <a href="mailto:ronaldsole17@gmail.com"><i class="fas fa-envelope"></i>>Correo</a>
+   <!--========================================================== -->
+                        <!-- TIPOS DE SERVICIOS-->
+    <!--========================================================== -->
+
+
+<section class="w-100">
+    <div class="row w-75 mx-auto" id="servicios-fila-1">       
+        <div class="col-lg-6 col-md-12 col-sm-12 d-flex justify-content-start my-5 icono-wrap">
+            <img src="./img/desarrollo.png" alt="desarrollo"   width="180" height="160">
+
+            <div>
+                <h3 class="fs-5 mt-4 px-4 pb-1">Compras</h3>
+                <p class="px-4">Comprar Nuestros productos: Via WEB, con mayor seguiridad.</p>
             </div>
 
         </div>
-        <div class="box__copyrigth">
-            <hr>
-            <p>Todos los derechos reservados 2021</p>
-            <p>Revolution Movil</p>
-        </div>
-    </footer>
 
- </body>
+        <div class="col-lg-6 col-md-12 col-sm-12 d-flex justify-content-start  my-5 icono-wrap">
+            <img src="./img/concepto.png" alt="concepto" width="180" height="160">
+
+            <div>
+                <h3 class="fs-5 mt-4 px-4 pb-1 icono-wrap">Asesoría</h3>
+                <p class="px-4">Te brindamos información sobre las dudas que tienes a la hora que comprar un equipo nuevo o nuestros accesorios.</p>
+            </div>
+        </div>   
+    </div>
+    
+    <div class="row w-75 mx-auto mb-5" id="servicios-fila-2">       
+        <div class="col-lg-6 col-md-12 col-sm-12 d-flex justify-content-start  my-5 icono-wrap">
+            <img src="./img/reparacion.jpg" alt="comunicaciones" width="180" height="160">
+
+            <div>
+                <h3 class="fs-5 mt-4 px-4 pb-1">Reparaciones</h3>
+                <p class="px-4">Desempeñamos con garantia la repación de tu equipo móvil.</p>
+            </div>
+        </div>
+
+        <div class="col-lg-6 col-md-12 col-sm-12 d-flex justify-content-start my-5 icono-wrap">
+            <img src="./img/pagos.png" alt="seo" width="180" height="160" >
+
+            <div>
+                <h3 class="fs-5 mt-4 px-4 pb-1">Pagos</h3>
+                <p class="px-4">Contamos con los servicios de pago: visa, mastercard y yape.</p>
+            </div>
+        </div>   
+    </div>
+</section>
+
+<!--========================================================== -->
+                        <!-- SECCION ACERCA DE NOSOTROS-->
+<!--========================================================== -->
+
+<section>
+    <div class="container w-50 m-auto text-center" id="equipo">
+        <h1 class="mb-5 fs-2">Somos una empresa que te da <span class="text-primary"> Grandes Resultados</span>.</h1>
+        <p class="fs-4 ">Siempre buscamos que el cliente este complacido con nuestros servicios, resolver sus dudas y las reparaciones seran lo mas rapidas posibles de acuerdo a sus necesidades.</p>
+    </div>
+
+    <div class="mt-5 text-center">
+        <img id="img-equipo" src="./img/logo2.jpg" alt="equipo">
+    </div>
+
+    <div id="local" class="border-top border-2">
+        <div class="map-responsive" style="width:100%"> 
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1518.4929348823018!2d-77.0145057630076!3d-12.026172377185967!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105cf59a1c78281%3A0x9a88871740a0dfdf!2sMercado%20Modelo%20Caja%20de%20Agua!5e0!3m2!1ses-419!2spe!4v1626206917233!5m2!1ses-419!2spe" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+        <div>
+            <div class="wrapper-local">
+                <h2>Ubicado en San juan de lurigancho, Caja de agua</h2>
+                <h2 class="text-primary mb-4" id="typewriter"></h2>
+                <p class="fs-5 text-body">Elijimos esta ubicacion por ser la mas cercana,para nuestros clientes y ahora mas adelantes estaremos en zarate, pero ustede puede pedir nuestro servicio de delivery!</p>
+                <section class="d-flex justify-content-start" id="numeros-local">
+                    <div>
+                        <p class="text-primary fs-5">100%</p>
+                        <p>Calidad</p>
+                    </div>
+                    <div>
+                        <p class="text-primary fs-5">100%</p>
+                        <p>Garantia</p>
+                    </div>
+                    <div>
+                        <p class="text-primary fs-5">100%</p>
+                        <p>Confianza</p>
+                    </div>
+              </section>
+            </div>
+        </div>
+    </div>
+
+</section>
+
+
+<!--========================================================== -->
+                        <!--FOOTER-->
+<!--========================================================== -->
+
+<footer>
+  <div class="contenedor-de-todo">
+      <div class="contenedor-body">
+          <div class="columna1">
+           <h1>Más Información de la Empresa</h1>
+
+              <p>Somos una empresa entrega a nustros clientes para darles una 
+              atención óptima, y poder resolver todo sus problemas que pueden 
+              tener con sus equipos, y puedan adquirir novedades de accesorios.</p>
+              
+          </div>
+          <div class="columna2">
+              <h1>Redes Sociales</h1>
+
+              <div class="fila">
+                  <img src="img/Facebook_logo.png">
+                  <label>Siguenos en <a href="https://www.facebook.com/Revolutionmovilperu">Facebook</a></label>
+              </div>
+              <div class="fila">
+                  <img src="img/Twitter_logo.png">
+                  <label>Siguenos en <a href="">Twitter</a></label>
+              </div>
+              <div class="fila">
+                  <img src="img/Instagram_logo.png">
+                  <label>Siguenos en <a href="https://www.instagram.com/revolution_movil_peru/?hl=es-la">Instagram</a></label>
+              </div>
+              <div class="fila">
+                  <img src="img/Tiktok_logo.png">
+                  <label><a href="">Siguenos en TikTok</a></label>
+              </div>
+          
+          </div>
+          <div class="columna3">
+              <h1>Información Contactos</h1>
+              <div class="fila2">
+                  <img src="img/casablanca_logo.png">
+                  <label>Pte Nuevo
+                  El Agustino
+                  Cerca a Vara de Oro
+                  Av.Zárate #1085 </label>
+              </div>
+              <div class="fila2">
+                  <img src="img/celular_logo.png">
+                  <label>+51 987 654 321</label>
+              </div>
+              <div class="fila2">
+                  <img src="img/carta_logo.png">
+                      <label>ronaldsole17@gmail.com</label>  
+              </div>
+          </div>       
+      </div>
+  </div> 
+  <div class="contenedor-footer">
+      <div class="footer">
+          <div class="copyright">
+          ©2021 Todos los derechos reservados | <a>Revolution Movil</a>
+          </div>
+          <div class="información">
+              <a>Información Empresa</a> | <a>Privacidad y
+              Política</a> | <a>Términos y condiciones</a>
+          </div>
+      </div>
+  </div>      
+</footer>
+
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script> 
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+    <script src="main.js"></script>
+  </body>
 </html>
